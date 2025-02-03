@@ -66,3 +66,7 @@
     color: white;
     font-size: 1.05rem;
 }
+
+.result-summary p .time-taken {
+    color: rgb(234, 255, 0);
+}
