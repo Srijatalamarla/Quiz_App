@@ -1,0 +1,46 @@
+.start-title {
+    margin-top: auto;
+    color: rgba(231, 244, 255, 0.705);
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.start-title span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.start-title,
+.start-contents {
+    margin-bottom: auto;
+}
+
+.start-quiz-topic,
+.start-quiz-mode-title {
+    font-size: 1.3rem;
+    color: rgb(226, 225, 233);
+    margin-bottom: 1rem;
+}
+
+.mode-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.mode-buttons button {
+    margin: 1rem 2rem;
+    background-color: transparent;
+    color: rgb(215, 215, 215);
+    cursor: pointer;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.mode-buttons button:hover {
+    color: white;
+    font-weight: 700;
+}

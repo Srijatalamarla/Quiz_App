@@ -1,0 +1,26 @@
+.question-card {
+    height: 100%;
+    padding: 1rem;
+}
+
+.question-container {
+    margin-bottom: 1rem;
+}
+
+.question-description {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.question-card .text {
+    text-align: left;
+    color: rgb(210, 210, 210);
+    margin-bottom: 2px;
+    font-size: 0.85rem;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+}

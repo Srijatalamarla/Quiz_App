@@ -1,0 +1,15 @@
+.explanation-container {
+    margin: 1rem 0;
+}
+
+.explanation-title {
+    font-size: 1rem;
+    color: rgb(0, 0, 70);
+}
+
+.explanation-content {
+    margin: 0.5rem 0;
+    font-size: 0.75rem;
+    color: #333;
+    text-align: justify;
+}
