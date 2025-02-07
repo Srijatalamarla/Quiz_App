@@ -15,6 +15,11 @@ An interactive Quiz App built with React, featuring different quiz modes, animat
 - 🎭 Framer Motion (for animations)
 - 🔗 React Router (for navigation)
 
+## Prerequisites
+Before running the project, ensure you have the following installed:
+
+- **Node.js**: [Download and install Node.js](https://nodejs.org/)
+  
 ## Installation
 To run this project locally:
 
@@ -128,5 +133,5 @@ API_URL=https://api-url....
 
 ## Usage
 1. Choose a quiz mode.
-2. Answer questions within the time limit.
+2. Answer questions (within the time limit - in challenge mode).
 3. View your score.
