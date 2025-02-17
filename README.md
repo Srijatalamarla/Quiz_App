@@ -3,6 +3,9 @@
 ## Overview
 An interactive Quiz App built with React, featuring different quiz modes, animations, and a dynamic timer.
 
+## 🚀 Live Demo
+Check out the deployed version of the app here: [Quiz App Live](https://quiz-app-srijat.vercel.app/)
+
 ## Features
 - 📋 Multiple quiz modes (Challenge & Normal)
 - 🎨 Animated transitions and effects (Framer Motion)
@@ -31,6 +34,7 @@ To run this project locally:
 2. Start the server(proxy server)
     ```sh
     cd server
+    npm install
     node server.js
     ```
     The server will output:
@@ -100,8 +104,10 @@ https://github.com/user-attachments/assets/9fc01220-5d3d-4537-8d06-1181b62eed8c
     └── package.json
 └── 📁server
     └── server.js
-└── .env
-└── .gitignore
+    └── .env
+    └── .gitignore
+    └── package-lock.json
+    └── package.json
 └── README.md
 ```
 
@@ -120,8 +126,8 @@ REACT_APP_API_URL=http://localhost:5000
 - This URL should match the backend server's URL where it is running
 - If your backend is deployed update this with the correct hosted URL.
 
-### 📂 Root (`.env`)
-Create a `.env` file inside the `root` folder and add:
+### 📂 Server (`server/.env`)
+Create a `.env` file inside the `server` folder and add:
 
 ```env
 PORT=5000
